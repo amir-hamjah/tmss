@@ -1,0 +1,466 @@
+ /* Common Css starts here */
+ *{
+     margin: 0;
+     padding: 0;
+     outline: 0;
+ }
+ body{
+    font-family:'Open Sans', sans-serif;
+ }
+
+ /* Common css ends here */
+
+ /* Navigation Bar css starts here  */
+ #navbar_wrapper{
+    width: 100%;
+    height: 75px;
+    background: #198dc7;
+ }
+ .navbar{
+     margin-top: 8px;
+ }
+ #navbar_wrapper .navbar .navbar-brand{
+     color: #fff;
+     font-size: 25px;
+ }
+ #navbar_wrapper .navbar .navbar-brand img{
+     width: 35px;
+     height: 35px;
+     margin-top: -10px; 
+}
+
+ #navbar_wrapper .navbar-expand-lg .navbar-nav .nav-link{
+     padding-left: 40px;
+     line-height: 14px;
+ } 
+ #navbar_wrapper .navbar .nav-link{
+     color: #fff;
+     font-size: 15px;
+     font-weight: 500;
+ }
+ #navbar_wrapper .navbar .nav-link span{
+     font-size: 10px;
+     font-weight: normal;
+ }
+
+
+ /* Navigation Bar css ends here  */
+
+
+/* Hero section css starts here */
+ #hero .hero_wrapper{
+     width: 100%;
+     height: 460px;
+     background: url(../images/hero-background.png) no-repeat center;
+     background-size: cover;
+ }
+ #hero .hero_wrapper .hero_text h1{
+     font-size: 65px;
+     font-family: 'Source Sans Pro', sans-serif;
+     line-height: 55px;
+     color: #000;
+     margin-top: 70px;
+ }
+ #hero .hero_wrapper .hero_text h1 span{
+     color: #757575;
+ }
+ #hero .hero_wrapper .hero_text p{
+     margin-top: 40px;
+     color: #757575;
+     font-size: 15px;
+ }
+#hero .hero_wrapper .hero_img_wrap img{
+    max-width: 100%;
+    height: 460px;
+}
+
+
+.slick-prev{
+    left: 60px !important;
+    z-index: 999;
+} 
+
+.slick-next:before, .slick-prev:before{
+    color: #2783b2 !important;
+    font-size: 50px !important;
+}
+.slick-next{
+    right: 100px !important;
+    z-index: 999;
+}
+.slick-dots li button:before{
+    color: #2783b2 !important;
+}
+/* Hero section css ends here */
+
+
+/* Sub Hero section css starts here */
+    #sub_hero{
+        margin: 60px 0;
+    }
+    #sub_hero h1{
+        font-size: 25px;
+        color: #000;
+        font-weight: bold;
+    }
+    #sub_hero p{
+        font-size: 15px;
+        color: #757575;
+        margin: 40px 0;
+        
+    }
+/* Sub Hero section css ends here  */
+
+
+/* About us section css starts here */
+    #about_us{
+        width: 100%;
+        height: 730px;
+        background: url(../images/about-us-bg.png) no-repeat center;
+        background-size: cover;
+        padding: 95px 0;
+    }
+    #about_us h1{
+        font-size: 25px;
+        letter-spacing: -2px;
+        color: #fff;
+        margin-bottom: 28px;
+    }
+    #about_us p,ul li{
+        font-size: 15px;
+        color: #fff;
+        font-weight: 100;
+    }
+
+    #about_us .icon_header{
+        font-size: 25px;
+        line-height: 30px;
+        color: #fff;
+    }
+    #about_us .icon_text{
+        color: #fff;
+        font-size: 14px;
+        margin-top: 25px;
+    }
+    #about_us ul{
+        list-style: none;
+    }
+    #about_us ul li i{
+        margin-right: 20px;
+        
+    }
+    .section-gap{
+        margin-top: 20px;
+    }
+
+
+ /* About us section css ends here */
+
+
+ /* Recent works section css starts here */
+    #recent_works{
+        height: 330px;
+        width: 100%;
+        background: #fff;
+        position: relative;
+        margin-bottom: 30px;
+    }
+
+    #recent_works .rw_wrap{
+        height: 370px;
+        background: #fff;
+        width: 100%;
+        position: absolute;
+        top: 20%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 999;
+        padding: 52px;
+        
+        
+    }
+    #recent_works .rw_wrap h1{
+        font-size: 25px;
+        font-weight: 700;
+    }
+    #recent_works .rw_wrap p{
+        font-size: 15px;
+        margin-top: 30px;
+        color: #161616;
+    }
+    #recent_works .rw_wrap button{
+        width: 160px;
+        height: 50px;
+        border: none;
+        background: #198dc7;
+        color: #fff;
+        border-radius: 50px;
+        margin-top: 45px;
+    }
+    #recent_works .rw_wrap img{
+        width: 200px;
+        height: 200px;
+    }
+    #recent_works .rw_wrap .u_image_text{
+        width: 100%;
+        text-align: center;
+        font-weight: 600;
+    }
+ /* Recent works section css ends here  */
+
+
+ /* What we offer css starts here  */
+    #what_we_offer{
+        width: 100%;
+        height: 520px;
+        background: url(../images/what-we-offer-bg.png) no-repeat center;
+        background-size: cover;
+        padding-top: 80px;
+    }
+
+    #what_we_offer h1{
+        font-size: 25px;
+        font-weight: 700;
+        color: #37343d;
+    }
+    #what_we_offer p{
+        font-size: 15px;
+        color: #161616;
+    }
+    #what_we_offer ul{
+        list-style: none;
+    }
+    #what_we_offer ul li{
+        color: #161616;
+        font-weight: 400;
+    }
+    #what_we_offer ul li i{
+        color: #198dc7;
+        margin-right: 22px; 
+    }
+    #what_we_offer button{
+        width: 160px;
+        height: 50px;
+        border: none;
+        background: #198dc7;
+        color: #fff;
+        border-radius: 50px;
+    }
+ /* What we offer css ends here  */
+
+
+/* What our clients say css starts here  */
+    #clients{
+        width: 100%;
+        height: 370px;
+        
+    }
+    #clients h1{
+        text-align: center;
+        font-size: 25px;
+        font-weight: 500;
+        color: #37343d;
+        margin: 65px 0;
+        
+    }
+
+   #clients .clients_slider{
+        height: 200px;
+        width: 100%;
+    }
+    #clients .clients_slider .slides{
+        margin: 0 40px;
+    }
+    #clients .clients_slider .slides span{
+        font-weight: 600;
+    }
+    #clients .clients_msg{
+        font-size: 15px;
+        padding: 15px 0;
+        border-bottom: 1px solid #198dc7;
+    }
+
+/* What our clients say css ends here  */
+
+
+/* Footer css starts here  */
+    #footer{
+        width: 100%;
+        height: 450px;
+        background: url(../images/about-us-bg.png) no-repeat center;
+        background-size: cover;
+        padding: 85px 0;
+    }
+    #footer .footer_contact h1{
+        color: #fff;
+        font-size: 25px;
+        font-weight: 200;
+    }
+    #footer .footer_contact ul{
+        list-style: none;
+        margin-top: 30px;
+    }
+    #footer .footer_contact ul li{
+        margin: 25px 0;
+        font-size: 15px;
+    }
+    #footer .footer_contact ul li i{
+        font-size: 15px;
+        margin-right: 20px;
+    }
+    #footer .social_icon_panel h1{
+        color: #fff;
+        font-size: 25px;
+        font-weight: 200;
+    }
+    #footer .social_icon_panel ul{
+        list-style: none;
+        margin-top: 35px;
+    }
+    #footer .social_icon_panel ul li{
+        float: left;
+        margin: 0 7px;
+    }
+    #footer .social_icon_panel ul li a{
+        text-decoration: none;
+        color: #fff;
+        font-size: 20px;
+    }
+
+
+    #footer .recent_posts h1{
+        color: #fff;
+        font-size: 25px;
+        font-weight: 200;
+    }
+
+    #footer .recent_posts ul{
+        list-style: none;
+        margin-top: 30px;
+    }
+    #footer .recent_posts ul li{
+        margin: 30px 0;
+        font-weight: 400;
+        font-size: 15px;
+    }
+
+    #footer .quick_form h1{
+        color: #fff;
+        font-size: 25px;
+        font-weight: 200;
+    }
+    #footer .quick_form form{
+        margin-top: 30px;
+    }
+
+    #footer .quick_form .msg_area{
+        height: 80px;
+    }
+    #footer .quick_form input{
+        background: #fff;
+        border-radius: 0px;
+    }
+    #footer .quick_form button{
+        width: 100px;
+        height: 50px;
+        border: none;
+        background: #198dc7;
+        color: #fff;
+    }
+/* Footer css ends here  */
+
+
+/* copyright bar css starts here  */
+    #copyrightBar{
+        height: 50px;
+        width: 100%;
+        background: #198dc7;
+        text-align: center;
+        line-height: 50px;
+        font-size: 15px;
+        color: #fff;
+    }
+/* copyright bar css ends here  */
+
+
+
+/*Mobile Responsive css here  */
+@media screen and (max-width: 768px) {
+    .navbar{
+        z-index: 999;
+    }
+    .navbar-nav{
+        background: rgb(131, 131, 131);
+        text-align: center;
+    }
+    #navbar_wrapper .navbar-expand-lg .navbar-nav .nav-link{
+        padding-left: 0;
+        border-bottom: 1px solid #fff;
+    }
+    #navbar_wrapper .navbar-expand-lg .navbar-nav .nav-link:hover{
+        background: #198dc7;
+    }
+    
+    
+    #hero .hero_wrapper{
+        width: 100%;
+        height: auto;
+    }
+    #hero .hero_wrapper .hero_text h1{
+        font-size: 45px;
+    }
+    .slick-next:before, .slick-prev:before{
+        display: none;
+    }
+
+    #about_us{
+        width: 100%;
+        height: auto;
+    }
+    #about_us img{
+        margin: 5% 0;
+    }
+    /* #about_us .icon_header{
+        text-align: center;
+    } */
+    #recent_works .rw_wrap{
+        margin-top: 50px;
+    }
+   #recent_works img, .u_image_text{
+    display: none;
+   }
+   #what_we_offer{
+    width: 100%;
+    height: auto;
+    padding-bottom: 6%;
+   }
+   #what_we_offer img{
+    width: 100%;
+    height: auto;
+    margin-bottom: 15%;
+}
+   #footer{
+    width: 100%;
+    height: auto;
+   }
+   #clients{
+    width: 100%;
+    height: auto;
+    padding-bottom: 6%;
+   }
+   #clients .clients_slider{
+    width: 100%;
+    height: auto;
+   }
+   #clients .clients_slider .slides img{
+    width: 100%;
+    height: auto;
+   }
+
+}
+@media screen and (max-width: 426px) {
+    #navbar_wrapper .navbar .navbar-brand{
+        font-size: 17px;
+    }
+    
+}
